@@ -21,7 +21,7 @@ apache-maven-3.8.6
 
 ## Topics
 
-[1. SetUp](C://Users//QQ18PR//javaExercise//src//site//markdown//SetUp.md)
+[1. SetUp](C://Users//$replace//javaExercise//src//site//markdown//SetUp.md)
 
 [2. Building Blocks]()
 
