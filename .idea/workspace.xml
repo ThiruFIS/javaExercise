@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DateAndTimeParsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiamondOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DoubleAndFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/markdown/SetUp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/markdown/VariableTypes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VaraibleTypesSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/javaExercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/PractiseProgram.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/ArrayExplanationCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayExplanationCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/CatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/CatchException1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchException1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/CatchException2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchException2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/ConditionalParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConditionalParameterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/Exercise63A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercise63A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/LambdaExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LambdaExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/ObjectExplanationCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectExplanationCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/OperationalParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperationalParameterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/StringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/VaraibleTypesSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VariableTypesSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/VariableTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VariableTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/divideNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/divideNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/methodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/methodOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/objectInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objectInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseProgram/src/whileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/whileLoop.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2G7FIxT9r0sfjpYeq4xzcHBamkq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PractiseProgram/src" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39195403" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="settings.xslt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QQ18PR\javaExercise\PractiseProgram\src" />
+      <recent name="C:\Users\QQ18PR\javaExercise" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QQ18PR\javaExercise\src\site\fml" />
+      <recent name="C:\Users\QQ18PR\javaExercise\src\test" />
+      <recent name="C:\Users\QQ18PR\javaExercise\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="xml" value="XML" />
+      </map>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="" />
+      <created>1665731640611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665731640611</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

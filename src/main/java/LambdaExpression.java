@@ -21,6 +21,7 @@ public class LambdaExpression {
     {
 
         // ----- Supplier Functional Interface
+        // source 8 or higher to enable lambda expressions
         Supplier<String> supplier = () -> "Supplier Functional Interface!";
         String string = supplier.get();
         System.out.println( "Supplier print = " + string);

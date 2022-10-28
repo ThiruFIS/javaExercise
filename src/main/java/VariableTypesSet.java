@@ -1,7 +1,7 @@
-public class VaraibleTypesSet {
+public class VariableTypesSet {
 
     static char charValue = 'e';                   // Size - 16 bits
-    static boolean booleantest = true;                           // JVM specific
+    static boolean booleantest = true;             // JVM specific
 
     static byte byteIntegerPos = 127;              // Size - 8 bits
     static byte byteIntegerNeg = -128;             // Size - 8 bits
@@ -14,7 +14,6 @@ public class VaraibleTypesSet {
 
     static float floatvalue = 1231231231.12312313123123f;   // Size - 32 bits
     static double doublevalue = 123123123.12311231234522532351231513515315123431234532543253252145141423534123121123414113412312346346435437347456435634312;     // Size - 64 bits
-
     static String stringValue = "tsgdsdfsdfsdfsdfsdfsdfdsfesfgdsgsefgsedvsdvsdvds";
 
     /* Different type of variable declaration */
