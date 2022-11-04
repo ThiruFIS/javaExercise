@@ -21,11 +21,11 @@ apache-maven-3.8.6
 
 ## Topics
 
-[1. SetUp](C://Users//qq18pr//javaExercise//src//site//markdown//SetUp.md)
+[1. SetUp](C://Users//$reference//javaExercise//src//site//markdown//SetUp.md)
 
-[2. Building Blocks](C://Users//qq18pr//javaExercise//src//site//markdown//BuildingBlocks.md)
+[2. Building Blocks](C://Users//$$reference//qq18pr//javaExercise//src//site//markdown//BuildingBlocks.md)
 
-[3. Operators and Statements](C://Users//qq18pr//javaExercise//src//site//markdown//OperatorsandStatements.md)
+[3. Operators and Statements](C://Users//$$reference//javaExercise//src//site//markdown//OperatorsandStatements.md)
 
 [4. Creating and Using Arrays]()
 
