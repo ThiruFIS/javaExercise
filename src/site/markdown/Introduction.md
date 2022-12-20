@@ -74,9 +74,7 @@ Once account is created please follow below steps
 * Open Intellij, Open file and cloned project location
 * Click Ctrl+R
   * find for $reference and replace with your user folder name
-
-
-
+  
 ### Note
 Please note while pushing to public repo, your change contain our company User ID
   
