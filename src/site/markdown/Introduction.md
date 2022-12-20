@@ -82,7 +82,7 @@ Please note while pushing to public repo, your change contain our company User I
 
 [1. SetUp](C://Users//$reference//javaExercise//src//site//markdown//SetUp.md)
 
-[2. Building Blocks](C://Users//$$reference//qq18pr//javaExercise//src//site//markdown//BuildingBlocks.md)
+[2. Building Blocks](C://Users//$$reference//$reference//javaExercise//src//site//markdown//BuildingBlocks.md)
 
 [3. Operators and Statements](C://Users//$$reference//javaExercise//src//site//markdown//OperatorsandStatements.md)
 

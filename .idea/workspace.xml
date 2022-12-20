@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeOrderMatters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InstanceInitializerWithObjInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InstanceInitializerWithoutObjInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NumberOfSchoolBags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RevertString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StaticInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/images/System Variable jdk.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/images/System variable maven.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/site/markdown/AccessModifiers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RevertStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaExercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/methodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MethodOverloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objectInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectInitialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/whileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WhileLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VaraibleTypesSetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/methodOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/methodOverloading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objectInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objectInitialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/whileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/whileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/VariableTypesSetTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667560828622</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated Documentation">
+      <created>1671527135198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671527135198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
