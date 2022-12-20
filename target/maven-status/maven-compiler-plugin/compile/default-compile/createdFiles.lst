@@ -2,6 +2,7 @@ ObjectExplanationCode.class
 objectInitialize.class
 whileLoop.class
 DoubleAndFloat.class
+RevertString.class
 StringBuilderTest.class
 DiamondOperator.class
 LambdaExpression.class

@@ -5,8 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeOrderMatters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InstanceInitializerWithObjInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InstanceInitializerWithoutObjInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumberOfSchoolBags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RevertString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaticInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/images/System Variable jdk.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/images/System variable maven.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/markdown/AccessModifiers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RevertStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaExercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/methodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MethodOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objectInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObjectInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/whileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VaraibleTypesSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/methodOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/methodOverloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/objectInitialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objectInitialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/whileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/whileLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VariableTypesSetTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +62,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/InstanceInitializerWithoutObjInstance.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/RevertString.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfSchoolBags.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/InstanceInitializerWithObjInstance.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,7 +79,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -68,6 +109,7 @@
       <recent name="C:\Users\QQ18PR\javaExercise" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QQ18PR\javaExercise\src\site\images" />
       <recent name="C:\Users\QQ18PR\javaExercise\src\site\fml" />
       <recent name="C:\Users\QQ18PR\javaExercise\src\test" />
       <recent name="C:\Users\QQ18PR\javaExercise\src\main\java" />
@@ -78,8 +120,51 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.InstanceInitializerWithoutObjInstance">
+    <configuration name="CodeOrderMatters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeOrderMatters" />
+      <module name="javaExercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceInitializerWithObjInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstanceInitializerWithObjInstance" />
+      <module name="javaExercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstanceInitializerWithoutObjInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InstanceInitializerWithoutObjInstance" />
+      <module name="javaExercise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RevertStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevertStringTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RevertStringTest" />
+      <option name="METHOD_NAME" value="testCase2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,6 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InstanceInitializerWithoutObjInstance" />
+        <item itemvalue="Application.InstanceInitializerWithObjInstance" />
+        <item itemvalue="Application.CodeOrderMatters" />
+        <item itemvalue="JUnit.RevertStringTest.testCase2" />
+        <item itemvalue="JUnit.RevertStringTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ScalaProjectSettings">
     <option name="intInjectionMapping">
@@ -115,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667556970283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Documentation">
+      <created>1667560828622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667560828622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
