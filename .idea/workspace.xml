@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="presentationUpdate" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -143,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RevertStringTest.testCase2" />
+        <item itemvalue="JUnit.RevertStringTest" />
         <item itemvalue="Application.InstanceInitializerWithoutObjInstance" />
         <item itemvalue="Application.InstanceInitializerWithObjInstance" />
         <item itemvalue="Application.CodeOrderMatters" />
-        <item itemvalue="JUnit.RevertStringTest.testCase2" />
-        <item itemvalue="JUnit.RevertStringTest" />
       </list>
     </recent_temporary>
   </component>
