@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671527135198</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Documentation">
+      <created>1671528994852</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671528994852</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
