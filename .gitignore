@@ -1,0 +1,10 @@
+## File-based project format:
+*.log
+*.iml
+
+# IntelliJ
+/target/
+
+# Intellji
+.idea/*
+
