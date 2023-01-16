@@ -5,7 +5,7 @@
 My Name is Thirumurugan Shanmugam, I am a developer in FIS for last 13 years. Currently, I work in ING - Netherlands
 as devops engineer(Profile). I am Oracle Certified Professional, Java SE 6 Programmer. Need to upgrade Still .....
 
-My Name is Perrone, C. (Carlo), I am a programmer 
+My Name is Perrone, C. (Carlo), I am a System Programmer working in the ING NL Project and part of the Platform Squad. I have a Java background as well as part of my University study but I am also one of the developer of the High Availability solution for ING NL (written in Java)
 
 My Name is Mihai....
 
