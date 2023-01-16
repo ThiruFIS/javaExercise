@@ -533,9 +533,9 @@ The code in a `static initializer` block is executed by the java virtual machine
 * Fields and instance initializer blocks are run in the order in which they appear in the file
 * The constructor runs after all fields and instance initializer blocks have run.
 
-[InstanceInitializer - Example 1](C:\Users\$reference\javaExercise\src\main\java\InstanceInitializerWithObjInstance.java)
+[InstanceInitializer - Example 1](C://Users//$reference//javaExercise//src//main//java//InstanceInitializerWithObjInstance.java)
 
-[InstanceInitializer - Example 2](C:\Users\$reference\javaExercise\src\main\java\InstanceInitializerWithoutObjInstance.java)
+[InstanceInitializer - Example 2](C://Users//$reference//javaExercise//src//main//java//InstanceInitializerWithoutObjInstance.java)
 
 Code order matters for the fields and blocks of code. 
 
@@ -600,7 +600,7 @@ the first object. This ID number is unique to each object and is therefore an in
 At the same time, you need a field to keep track of how many schoolbag objects have been created so that you know 
 what ID to assign to the next one. Such a field is not related to any individual object, but to the class as a whole. 
 
-[numberOfSchoolBags - Example 1](C:\Users\$reference\javaExercise\src\main\java\NumberOfSchoolBags.java)
+[numberOfSchoolBags - Example 1](C://Users//$reference//javaExercise//src//main//java//NumberOfSchoolBags.java)
 
 A common use for static methods is to access static fields. For example, we could add a static method to the schoolBag
 class to access the numberOfSchoolBag static field:
@@ -623,18 +623,95 @@ Two type of Data
 
 ### Primitive types
 
-Eight built-in data types 
+Eight built-in data types
 
+| keyword | Type                        | Example |
+|---------|-----------------------------|---------|
+| boolean | true or false               | true    |
+| byte    | 8-bit integral value        | 123     |
+| short   | 16-bit integral value       | 123     |
+| int     | 32-bit integral value       | 123     |
+| long    | 64-bit integral value       | 123     |
+| float   | 32-bit floating-point value | 123.45f |
+| double  | 64-bit floating-point value | 123.456 |
+| char    | 16-bit Unicode value        | 'a'     |
 
+* float and double are used for floating-point (decimal) values.
+* A float requires the letter f following the number so Java knows it is a float.
+* byte, short, int, and long are used for numbers without decimal points.
+* Each numeric type uses twice as many bits as the smaller similar type. For example, 
+  short uses twice as many bits as byte does.
 
+```java
+public class Bicycle {
+    // Allocates 32 bits (A byte is 8 bits, 
+    int num;
+}
+```
 
 ### Reference Types
 
+
+
 ### Declaring and Initializing Variables
+
+A `variable` is a name for a piece of memory that stores data.
+
+#### Declaring a variable
+
+```java
+public class Thiru {
+    int a1;
+}
+```
+
+#### Initialize a variable
+
+```java
+public class Thiru {
+    int a1 = 0;
+}
+```
 
 ### Declaring Multiple Variables
 
+You can declare and initialize multiple variables in same statement.
+
+```java
+public class Thiru {
+   String s1, s2;
+   String s3 = "yes", s4 = "no";
+   // i1, i2 are declared and i3 is initialized
+   int i1, i2, i3 = 0;
+   
+   // Doesnot compile
+   // int num, String value;
+}
+```
+
+You can find what are possible allowed declaration
+
+```java
+public class Thiru {
+    boolean b1, b2;
+    String s1 = "1", s2;
+    double d1, double d2;
+    int i1; int i2;
+    int i3; i4;
+}
+```
+
 ### Identifiers
+
+Rules for identifiers apply to anything you are free to name, including variables,
+methods, classes, and fields.
+
+Three rules we need to follow
+* Name should begin with letter or symbol $
+* subsequent characters may also be numbers
+* We cannot use same name as java reserve word
+
+Java reserved work list
 
 `abstract`
 `assert`
@@ -690,9 +767,14 @@ Eight built-in data types
 `volatile`
 `while`
 
+[Example](C://Users//$reference//javaExercise//src//main//java//VariableTypes.java)
+
 ### Understanding Default Initialization of Variables
 
 #### Local Variables
+
+* A local variable is a variable defined within a method. 
+* Local variables must be initialized before use.
 
 #### Instance and Class Variables
 
@@ -712,4 +794,44 @@ Java application.
 
 #### Garbage Collection
 
+Garbage collection refers to the process of automatically freeing memory on the heap by
+deleting objects that are no longer reachable in your program.
+
+JVM specifications do not clearly define how to implement the garbage collector. Therefore, 
+VMs from different manufacturers can implement the garbage collector in different ways.
+
+There are many algorithms for garbage collection.
+
+For Example:
+
+Most Common garbage algorithm are
+
+`mark-sweep algorithm`
+
+  * Perform 2 Operations
+    * Mark
+    * Sweep
+  * it has a disadvantage of memory fragmentation
+
+[Diagram](C://Users//$reference//javaExercise//src//site//images//mark-Sweep.PNG)
+
+To Solve memory fragmentation 
+
+`Copying algorithm`
+
+  * Available memory into two equally sized semi-spaces
+    * Only one semi-space will be active, once semi-space is full then it will be copied to other semi-space
+  * It has a disadvantage that only half of the memory can be actually used and cost is too high. 
+  
+[Diagram](C://Users//$reference//javaExercise//src//site//images//Copying.PNG)
+
+`mark-compact algorithm`
+
+* its same process as like mark-sweep algorithm, it solves disadvantages of mark-sweep and copying.
+* This algorithm does not directly clear up the objects that can be garbage-collected. Instead, it moves all 
+  living objects to one end, and then reclaims the memory space beyond the end boundary.
+
+[Diagram](C://Users//$reference//javaExercise//src//site//images//mark-compact.PNG)
+
 #### finalize()
+

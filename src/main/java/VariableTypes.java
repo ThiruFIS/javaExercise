@@ -88,7 +88,7 @@ public class VariableTypes {
         System.out.println("String adding-"+ a);
 
 
-        // We can decalre as showed below
+        // We can declare as showed below
         //double num1, int num2 = 0;
         int num3, num4;
         //int num1, num2 = 0;
