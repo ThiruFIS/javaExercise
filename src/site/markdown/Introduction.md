@@ -67,7 +67,8 @@ Once account is created please follow below steps
 * Open Github
 * Go to C:/Users/$reference location
 * Clone the project https://github.com/ThiruFIS/javaExercise
-  * git clone https://github.com/ThiruFIS/javaExercise
+  * git -c http.sslVerify=false clone https://github.com/ThiruFIS/javaExercise
+
 
 ## Getting Ready
 
