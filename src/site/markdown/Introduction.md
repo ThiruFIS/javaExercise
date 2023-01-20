@@ -5,9 +5,9 @@
 My Name is Thirumurugan Shanmugam, I am a developer in FIS for last 13 years. Currently, I work in ING - Netherlands
 as devops engineer(Profile). I am Oracle Certified Professional, Java SE 6 Programmer. Need to upgrade Still .....
 
-My Name is Perrone, C. (Carlo), I am a programmer 
+My Name is Perrone, C. (Carlo), I am a System Programmer working in the ING NL Project and part of the Platform Squad. I have a Java background as well as part of my University study but I am also one of the developer of the High Availability solution for ING NL (written in Java)
 
-My Name is Mihai....
+My Name is Mihai Development Supervisorand I am going to be a Lab Assistent
 
 ## Objective of Java Guild - FIS
 
@@ -18,15 +18,22 @@ My Name is Mihai....
   
 ## prerequisite
 
+### Intellij
+
+Download and install intellij
+
+You can download [here](https://www.jetbrains.com/idea/download/#section=windows)
+
 ### Java Version
 [Java Version - 8 & JDK Version - 1.8](https://dev.java/download/releases/)
+## Java 1.8 JDK can be downlead as part of the Intellj : azul.18
 
 #### Configure environment variables
 
 [Configuration Details](C://Users//$reference//javaExercise//src//site//images//System Variable jdk.PNG)
 
 ### Junit Version
-Junit 5
+Junit 5 #This one can be done later in the pom.xml
 
 [User Guide](https://junit.org/junit5/docs/current/user-guide/)
 [Artifactory](https://mvnrepository.com/artifact/org.junit)
@@ -50,16 +57,13 @@ Install gitBash, You can find all instructions to install [here](https://github.
 
 You can find all instructions [here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
 
-### Intellij
-
-Download and install intellij
-
-You can download [here](https://www.jetbrains.com/idea/download/#section=windows)
 
 ### Git Hub
 
 Please create account in [GitHub](https://github.com/) to download repository and upload your work. So it stays there at anytime for your
 reference.
+
+Once the account is created please provide the username to the MasterLab so he can send you the invitation and you will need to accept. This action will provide the read/write access.
 
 [Repository Location](https://github.com/ThiruFIS/javaExercise)
 
@@ -67,11 +71,14 @@ Once account is created please follow below steps
 * Open Github
 * Go to C:/Users/$reference location
 * Clone the project https://github.com/ThiruFIS/javaExercise
-  * git clone https://github.com/ThiruFIS/javaExercise
+  * git -c http.sslVerify=false clone https://github.com/ThiruFIS/javaExercise
+
 
 ## Getting Ready
 
 * Open Intellij, Open file and cloned project location
+* Set up JDK in the Project Module
+* Set up the gitHub access (for Intellj): Settings/GitHub/AddAccount
 * Click Ctrl+R
   * find for $reference and replace with your user folder name
   
