@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReferenceType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayExplanationCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CatchException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CatchException1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CatchException2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConditionalParameterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DateAndTimeParsing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DiamondOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DoubleAndFloat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercise63A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Exercise63AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LambdaExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ObjectExplanationCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperationalParameterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringBuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VariableTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VariableTypesSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/divideNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/methodOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/objectInitialize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/whileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +59,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ReadFile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/OperationalParameterTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/VariableTypes.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/InstanceInitializerWithoutObjInstance.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/RevertString.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/NumberOfSchoolBags.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/RevertStringTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/InstanceInitializerWithObjInstance.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/CatchException1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,6 +91,12 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

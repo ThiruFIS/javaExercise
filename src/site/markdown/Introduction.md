@@ -7,7 +7,7 @@ as devops engineer(Profile). I am Oracle Certified Professional, Java SE 6 Progr
 
 My Name is Perrone, C. (Carlo), I am a System Programmer working in the ING NL Project and part of the Platform Squad. I have a Java background as well as part of my University study but I am also one of the developer of the High Availability solution for ING NL (written in Java)
 
-My Name is Mihai Development Supervisorand I am going to be a Lab Assistent
+My Name is Mihai Development Supervisor and I am going to be a Lab Assistant
 
 ## Objective of Java Guild - FIS
 
@@ -26,7 +26,7 @@ You can download [here](https://www.jetbrains.com/idea/download/#section=windows
 
 ### Java Version
 [Java Version - 8 & JDK Version - 1.8](https://dev.java/download/releases/)
-## Java 1.8 JDK can be downlead as part of the Intellj : azul.18
+## Java 1.8 JDK can be downloaded as part of the IntelliJ : azul.18
 
 #### Configure environment variables
 
@@ -78,7 +78,7 @@ Once account is created please follow below steps
 
 * Open Intellij, Open file and cloned project location
 * Set up JDK in the Project Module
-* Set up the gitHub access (for Intellj): Settings/GitHub/AddAccount
+* Set up the gitHub access (for IntelliJ): Settings/GitHub/AddAccount
 * Click Ctrl+R
   * find for $reference and replace with your user folder name
   
@@ -87,11 +87,14 @@ Please note while pushing to public repo, your change contain our company User I
   
 ## Topics
 
+### Planned Sessions - 23/01/2023
 [1. SetUp](C://Users//$reference//javaExercise//src//site//markdown//SetUp.md)
 
-[2. Building Blocks](C://Users//$$reference//$reference//javaExercise//src//site//markdown//BuildingBlocks.md)
+### Planned Sessions - 06/02/2023
+[2. Building Blocks](C://Users//$reference//javaExercise//src//site//markdown//BuildingBlocks.md)
 
-[3. Operators and Statements](C://Users//$$reference//javaExercise//src//site//markdown//OperatorsandStatements.md)
+### Planned Sessions - 06/03/2023
+[3. Operators and Statements](C://Users//$reference//javaExercise//src//site//markdown//OperatorsandStatements.md)
 
 [4. Creating and Using Arrays]()
 

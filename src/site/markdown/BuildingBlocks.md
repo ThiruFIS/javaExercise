@@ -290,7 +290,6 @@ import java.util.*;
 * Lines 1 and 2 are redundant because everything in java.lang is automatically considered to be imported.
 * Line 4 is also redundant in this example because Random is already imported from java.util.Random.
 
-
 #### Question??
 
 Can you tell what import will work for below code snippet?
@@ -525,7 +524,15 @@ public class coreBank {
 The code in a `static initializer` block is executed by the java virtual machine when the class is loaded.
 
 ```java
-
+public class Demo {
+    static int[] numArray = new int[10];
+    static {
+        System.out.println("Running static initialization block.");
+        for (int i = 0; i < numArray.length; i++) {
+            numArray[i] = (int) (100.0 * Math.random());
+        }
+    }
+}
 ```
 
 ### Order of Initialization
@@ -589,21 +596,8 @@ public class Bicycle {
     // add a class variable for the
     // number of Bicycle objects instantiated
     private static int numberOfBicycles = 0;
-        ...
 }
 ```
-
-### Hands-On
-
-Create a number of schoolbag objects and assign each a serial number using variable ID, beginning with 1 for 
-the first object. This ID number is unique to each object and is therefore an instance variable.
-At the same time, you need a field to keep track of how many schoolbag objects have been created so that you know 
-what ID to assign to the next one. Such a field is not related to any individual object, but to the class as a whole. 
-
-[numberOfSchoolBags - Example 1](C://Users//$reference//javaExercise//src//main//java//NumberOfSchoolBags.java)
-
-A common use for static methods is to access static fields. For example, we could add a static method to the schoolBag
-class to access the numberOfSchoolBag static field:
 
 ```java
 public class NumberOfSchoolBags {
@@ -644,14 +638,47 @@ Eight built-in data types
 
 ```java
 public class Bicycle {
-    // Allocates 32 bits (A byte is 8 bits, 
+    // Allocates 32 bits (A byte is 8 bits)
     int num;
 }
 ```
 
 ### Reference Types
 
+* A reference type refers to an object
 
+```java
+import java.util.Date;
+public class ReferenceType {
+    public static void main(String args[]) {
+        java.util.Date today;
+        String greeting;
+        today = new java.util.Date();
+        greeting = "How are you?";
+    }
+}
+```
+
+### Key difference between primitive and reference type
+
+`Reference types can be assigned null`
+
+```java
+public class FIS {
+    int value = null; // DOES NOT COMPILE
+    String s = null;
+}
+```
+
+`Primitive doesnot have methods`
+
+```java
+public class FIS {
+    String reference = "hello";
+    int len = reference.length();
+    int bad = len.length(); // DOES NOT COMPILE
+}
+```
 
 ### Declaring and Initializing Variables
 
@@ -697,7 +724,7 @@ public class Thiru {
     String s1 = "1", s2;
     double d1, double d2;
     int i1; int i2;
-    int i3; i4;
+    //int i3; i4; DOESNOT COMPILE
 }
 ```
 
@@ -771,16 +798,174 @@ Java reserved work list
 
 ### Understanding Default Initialization of Variables
 
+Now we will example of Local, instance, and class variables.
+
 #### Local Variables
 
 * A local variable is a variable defined within a method. 
 * Local variables must be initialized before use.
+* It does not have a default value, and contain garbage data until initialized, So compiler won't allow.
+
+`Example`
+
+```java
+public class Thiru {
+    public int check() {
+        int y = 10;
+        int x;
+        int reply = x + y; // DOES NOT COMPILE
+        return reply;
+    }
+}
+```
+`Compile is smart enough`
+
+```java
+public class Thiru {
+    public int valid() {
+        int y = 10;
+        int x; // x is declared here
+        x = 3; // and initialized here
+        int reply = x + y;
+        return reply;
+    }
+}
+```
+
+`Compiler will also identify initializations`
+
+```java
+public class Thiru {
+    public void findAnswer(boolean check) {
+        int answer;
+        int onlyOneBranch;
+        if (check) {
+            onlyOneBranch = 1;
+            answer = 1;
+        } else {
+            answer = 2;
+        }
+        System.out.println(answer);
+        System.out.println(onlyOneBranch); // DOES NOT COMPILE
+    }
+}
+```
 
 #### Instance and Class Variables
 
+* Variables that are defined without the STATIC keyword
+* Outside any method declaration are Object-specific
+
+`for example`
+
+```java
+class Page {
+    public String pageName;
+    // instance variable with public access
+    private int pageNumber;
+    // instance variable with private access
+}
+```
+
+You can tell a variable is a class variable because it has the keyword static before it.
+
+`Example`
+
+```java
+public class Bicycle {
+        
+    private int cadence;
+    private int gear;
+    private int speed;
+        
+    // add an instance variable for the object ID
+    private int id;
+    
+    // add a class variable for the
+    // number of Bicycle objects instantiated
+    private static int numberOfBicycles = 0;
+}
+```
+
+| Variable Type                           | Default initialization value |
+|-----------------------------------------|------------------------------|
+| boolean                                 | false                        |
+| byte, short, int, long                  | 0                            |
+| float, double                           | 0.0                          |
+| char                                    | '\u0000' (NUL)               |
+| All object references (everything else) | null                         |
+
 ### Understanding Variable Scope
 
+How many local variables in below example?
+
+```java
+public class Thiru {
+    public void eatIfHungry(boolean hungry) {
+        if (hungry) {
+            int bitesOfCheese = 1;
+        } // bitesOfCheese goes out of scope here
+        System.out.println(bitesOfCheese);// DOES NOT COMPILE
+    }
+}
+```
+
+`Example to understand variable scope `
+
+```java
+public class FIS {
+    public void eatMore(boolean hungry, int amountOfFood) {
+        int roomInBelly = 5;
+        if (hungry) {
+            boolean timeToEat = true;
+            while (amountOfFood > 0) {
+                int amountEaten = 2;
+                roomInBelly = roomInBelly - amountEaten;
+                amountOfFood = amountOfFood - amountEaten;
+            }
+        }
+        System.out.println(amountOfFood);
+    }
+}
+```
+
 ### Ordering Elements in a Class
+
+| Element             | Example                 | Required? | Where does it go?             |
+|---------------------|-------------------------|-----------|-------------------------------|
+| Package             | declaration package abc | No        | First line in the file        |
+| Import statements   | import java.util.*      | No        | Immediately after the package |
+| Class declaration   | public class C          | Yes       | Immediately after the import  |
+| Field declarations  | int value               | No        | Anywhere inside a class       |
+| Method declarations | void method()           | No        | Anywhere inside a class       |
+
+```java
+package structure; // package must be first non-comment
+import java.util.*; // import must come after package
+public class Thiru { // then comes the class
+    double weight; // fields and methods can go in either order
+    public double getWeight() {
+        return weight; 
+    }
+    double height; // another field – they don't need to be together
+}
+```
+
+In below example there are two issues.
+
+`Issue 1` - package and import statements are reversed. Even though its optional field, package should be first.
+`Issue 2` - field declaration is outside class. 
+
+```java
+import java.util.*;
+package structure; // DOES NOT COMPILE
+public class FIS {
+    String name; // DOES NOT COMPILE
+    public class Thiru { }
+}
+```
+
+`Note` - We can remember a name `PIC` picture. i.e Package, Import and Class. 
 
 ### Destroying Objects
 
@@ -833,5 +1018,21 @@ To Solve memory fragmentation
 
 [Diagram](C://Users//$reference//javaExercise//src//site//images//mark-compact.PNG)
 
-#### finalize()
+`Note` Java provides a method called System.gc(), this is only to kick off a garbage collection run, Java is 
+fre to ignore the request.
 
+'Important point to remember in garbage collection:'
+* The object no longer has any references pointing to it.
+* All references to the object have gone out of scope.
+
+## Hands-On
+
+### Build a new Class should print "Hello world"
+
+### Build a new class which create object and do read and write on object fields
+
+### Build a new class with static and instance initializers blocks
+
+### Build a new Class with Local variable, class and static variable
+
+### Build a new Class with package and import
