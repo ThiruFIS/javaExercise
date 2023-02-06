@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReferenceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaticInitializerWithObjInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringsImmutable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CodeOrderMatters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeOrderMatters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/markdown/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/Introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ArrayExplanationCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CatchException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CatchException1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CatchException2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConditionalParameterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DateAndTimeParsing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DiamondOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleAndFloat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercise63A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exercise63AA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LambdaExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ObjectExplanationCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OperationalParameterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VariableTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/VariableTypesSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/divideNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/methodOverloading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objectInitialize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/whileLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InstanceInitializerWithoutObjInstance">
+  <component name="RunManager" selected="Application.StringsImmutable">
     <configuration name="CodeOrderMatters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeOrderMatters" />
       <module name="javaExercise" />
@@ -141,21 +118,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevertStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticInitializerWithObjInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticInitializerWithObjInstance" />
       <module name="javaExercise" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RevertStringTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevertStringTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringsImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsImmutable" />
       <module name="javaExercise" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RevertStringTest" />
-      <option name="METHOD_NAME" value="testCase2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RevertStringTest.testCase2" />
-        <item itemvalue="JUnit.RevertStringTest" />
+        <item itemvalue="Application.StringsImmutable" />
+        <item itemvalue="Application.CodeOrderMatters" />
+        <item itemvalue="Application.StaticInitializerWithObjInstance" />
         <item itemvalue="Application.InstanceInitializerWithoutObjInstance" />
         <item itemvalue="Application.InstanceInitializerWithObjInstance" />
-        <item itemvalue="Application.CodeOrderMatters" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673873222487</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated Documentation">
+      <created>1675419150582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675419150582</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -5,7 +5,6 @@
 
 public class CodeOrderMatters {
 
-    // Doesnot Compile
     {System.out.println( printVariable1);}
     {System.out.println( printVariable2);}
 

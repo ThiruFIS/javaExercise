@@ -7,7 +7,6 @@ List of Topics we are going to see in Java basics are
 1. Scope of variables 
 2. Structure of Java Class
 3. Import Java packages
-4. components of Java such as platform independence, object orientation, encapsulation, etc
 
 List of topics we are going to see in Java data types are
 
@@ -103,7 +102,7 @@ This comment is similar to a multiline comment except it starts with /**. This s
 
 ### Classes
 
-Class without `public` keyword by default it will be `public`
+Class without `public` keyword by default it will be `default` in runtime i.e it can be used only in same package.
 
 ```java
 class Thiru {
@@ -285,6 +284,12 @@ import java.lang.System;
 import java.lang.*;
 import java.util.Random;
 import java.util.*;
+public class ImportExample {
+    public static void main(String[] args) {
+    Random r = new Random();
+    System.out.println(r.nextInt(10));
+    }
+}
 ```
 
 * Lines 1 and 2 are redundant because everything in java.lang is automatically considered to be imported.
@@ -297,7 +302,7 @@ Can you tell what import will work for below code snippet?
 ```java
 public class Thiru {
    public void read(Files files) {
-      Paths .get("profileSpoolDirectory");
+      Paths.get("profileSpoolDirectory");
    }
 }
 ```
@@ -581,33 +586,6 @@ public class CodeOrderMatters {
 Why ? Because `static` modifier (static fields or class variables) are associated with a class rather than any other
 object. Every instance of a class shares a class variable which is one fixed location in memory.
 
-#### Example to use `static` modifier:
-
-```java
-public class Bicycle {
-        
-    private int cadence;
-    private int gear;
-    private int speed;
-        
-    // add an instance variable for the object ID
-    private int id;
-    
-    // add a class variable for the
-    // number of Bicycle objects instantiated
-    private static int numberOfBicycles = 0;
-}
-```
-
-```java
-public class NumberOfSchoolBags {
-    // Highlight Code ---
-    public static int getNumberOfSchoolBags() {
-        return numberOfSchoolBags;
-    }
-}
-```
-
 ### Distinguishing Between Object References and Primitives
 
 Two type of Data
@@ -637,10 +615,10 @@ Eight built-in data types
   short uses twice as many bits as byte does.
 
 ```java
-public class Bicycle {
-    // Allocates 32 bits (A byte is 8 bits)
-    int num;
-}
+double notAtStart = _1000.00; // DOES NOT COMPILE
+double notAtEnd = 1000.00_; // DOES NOT COMPILE
+double notByDecimal = 1000_.00; // DOES NOT COMPILE
+double annoyingButLegal = 1_00_0.0_0; // this one compiles
 ```
 
 ### Reference Types
