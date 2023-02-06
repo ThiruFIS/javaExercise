@@ -868,6 +868,10 @@ public class Bicycle {
 }
 ```
 
+* Local variables—in scope from declaration to end of block
+* Instance variables—in scope from declaration until object garbage collected
+* Class variables—in scope from declaration until program ends
+
 | Variable Type                           | Default initialization value |
 |-----------------------------------------|------------------------------|
 | boolean                                 | false                        |
