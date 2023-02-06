@@ -831,6 +831,8 @@ public class Thiru {
 
 #### Instance and Class Variables
 
+##### Instance variable
+
 * Variables that are defined without the STATIC keyword
 * Outside any method declaration are Object-specific
 
@@ -844,6 +846,7 @@ class Page {
     // instance variable with private access
 }
 ```
+##### Static variable
 
 You can tell a variable is a class variable because it has the keyword static before it.
 
