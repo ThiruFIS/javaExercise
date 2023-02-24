@@ -4,6 +4,7 @@ public class RevertString {
 
         String str = "123";
         System.out.println(reverse(str));
+        System.out.println(reverse(str));
     }
 
      static String reverse(String in) {

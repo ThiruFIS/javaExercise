@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LogicalOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ModulusOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumericPromotionRule1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumericPromotionRule2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumericPromotionRule3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NumericPromotionRuleAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RevertString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RevertString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/BuildingBlocks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +76,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Presentation" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -91,39 +102,40 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+      <recent name="NumericPromotionRule1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringsImmutable">
-    <configuration name="CodeOrderMatters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeOrderMatters" />
+  <component name="RunManager" selected="Application.LogicalOperator">
+    <configuration name="LogicalOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicalOperator" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInitializerWithObjInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InstanceInitializerWithObjInstance" />
+    <configuration name="NumericPromotionRule2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericPromotionRule2" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceInitializerWithoutObjInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InstanceInitializerWithoutObjInstance" />
+    <configuration name="NumericPromotionRule3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericPromotionRule3" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticInitializerWithObjInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticInitializerWithObjInstance" />
+    <configuration name="NumericPromotionRule3A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericPromotionRule3A" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsImmutable" />
+    <configuration name="NumericPromotionRuleAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericPromotionRuleAll" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringsImmutable" />
-        <item itemvalue="Application.CodeOrderMatters" />
-        <item itemvalue="Application.StaticInitializerWithObjInstance" />
-        <item itemvalue="Application.InstanceInitializerWithoutObjInstance" />
-        <item itemvalue="Application.InstanceInitializerWithObjInstance" />
+        <item itemvalue="Application.LogicalOperator" />
+        <item itemvalue="Application.NumericPromotionRuleAll" />
+        <item itemvalue="Application.NumericPromotionRule3A" />
+        <item itemvalue="Application.NumericPromotionRule3" />
+        <item itemvalue="Application.NumericPromotionRule2" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +170,9 @@
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="" />
@@ -243,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675678450427</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated Documentation">
+      <created>1675679148086</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675679148086</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

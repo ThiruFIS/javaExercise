@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class StringBuilderTest {
 
     public static void main(String args[]) {
@@ -12,6 +14,8 @@ public class StringBuilderTest {
         System.out.println("line1" + line.append("-"));
         System.out.println("line2" + line);
         System.out.println("anotherLine" + anotherLine);
+
+        Date d2 = new Date();
 
         System.out.print(line == anotherLine);
 
