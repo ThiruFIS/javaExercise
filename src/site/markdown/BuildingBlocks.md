@@ -871,6 +871,7 @@ public class Bicycle {
 * Local variables—in scope from declaration to end of block
 * Instance variables—in scope from declaration until object garbage collected
 * Class variables—in scope from declaration until program ends
+* Instance and class variable do not require to initialize
 
 | Variable Type                           | Default initialization value |
 |-----------------------------------------|------------------------------|
@@ -944,9 +945,8 @@ In below example there are two issues.
 ```java
 import java.util.*;
 package structure; // DOES NOT COMPILE
+String name; // DOES NOT COMPILE
 public class FIS {
-    String name; // DOES NOT COMPILE
-    public class Thiru { }
 }
 ```
 

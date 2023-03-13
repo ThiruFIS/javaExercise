@@ -147,7 +147,239 @@ both data types are not integer
 
 ## Logical Complement and Negation Operators
 
-### Logical operator ! flips the value of boolean expression
+### Logical Complement operator ! flips the value of boolean expression
 
-[LogicalOperator](C://Users//$reference//javaExercise//src//main//java//LogicalOperator.java)
+* Flips the value of a boolean expression
 
+[LogicalComplementOperator](C://Users//$reference//javaExercise//src//main//java//LogicalOperator.java)
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        boolean x = false;
+        System.out.println(x); // false
+        x = !x;
+        System.out.println(x); // true
+    }
+}
+```
+### Negation Operators
+
+* Reverses the sign of a numeric expression
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        double x = 1.21;
+        System.out.println(x); // 1.21
+        x = -x;
+        System.out.println(x); // -1.21
+        x = -x;
+        System.out.println(x); // 1.21
+    }
+}
+```
+
+`We cant use logical and negation operator as showed below`
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+    int x = !5;         // DOES NOT COMPILE
+    boolean y = -true;  // DOES NOT COMPILE
+    boolean z = !0;     // DOES NOT COMPILE
+    }
+}
+```
+
+### Increment and Decrement Operators
+
+* ++ Increment operator applied to numeric
+* -- Decrement operator applied to numeric
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+    int counter = 0;
+    System.out.println(counter); // Outputs 0
+    System.out.println(++counter); // Outputs 1 -> pre-increment operator
+    System.out.println(counter); // Outputs 1
+    System.out.println(counter--); // Outputs 1 -> post-decrement operator
+    System.out.println(counter); // Outputs 0
+    }
+}
+```
+
+[IncrementDecrementOperator](C://Users//$reference//javaExercise//src//main//java//IncrementDecrementOperator.java)
+
+## Using Additional Binary Operators
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+    int x = 1.0; // DOES NOT COMPILE
+    short y = 1921222; // DOES NOT COMPILE
+    int z = 9f; // DOES NOT COMPILE
+    long t = 192301398193810323; // DOES NOT COMPILE
+    }
+}
+```
+`How to fix this?`
+
+### Casting primitive values
+
+* Larger numerical data type to a smaller numerical data type
+* Floating-point number to an integral value
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int x = (int)1.0;
+        short y = (short)1921222; // Stored as 20678
+        int z = (int)9l;
+        long t = 192301398193810323L;
+    }
+}
+```
+
+`System wraps around to the next lowest value and counts up from there`
+
+[Casting](C://Users//$reference//javaExercise//src//main//java//Casting.java)
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+    short x = 10;
+    short y = 3;
+    short z = x * y; // DOES NOT COMPILE
+    }
+}
+```
+
+`How to fix compile error ?`
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+    short x = 10;
+    short y = 3;
+    short z = (short)(x * y);
+    }
+}
+```
+
+### Compound Assignment Operators
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int x = 2, z = 3;
+        x = x * z;   // Simple assignment operator
+        System.out.println(x);
+        x *= z;     // Compound assignment operator
+        System.out.println(x);
+    }
+}
+```
+
+[CompoundAssignmentOperator](C://Users//$reference//javaExercise//src//main//java//CompoundAssignmentOperator.java)
+
+### Relational operator
+
+`compare two expressions and return a boolean value`
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int x = 10, y = 20, z = 10;
+        System.out.println(x < y); // Outputs true
+        System.out.println(x <= y); // Outputs true
+        System.out.println(x >= z); // Outputs true
+        System.out.println(x > z); // Outputs false
+    }
+}
+```
+
+### Logical operator
+
+* Logical operator or `&` `|`
+* Conditional operator && (AND) and || (OR)
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        boolean x = true || (y < 4);
+    }
+}
+```
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        if(x != null && x.getValue() < 5) {
+            // Do something
+        }
+    }
+}
+```
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        if(x != null & x.getValue() < 5) { // Throws an exception if x is null
+            // Do something
+        }
+    }
+}
+```
+
+### Equality operator
+
+Equality to determine
+* Two Objects are same
+* Two Objects are equivalent
+
+`Equal operator ==`
+`Not Equal operator !=`
+
+We can use equal operator in three scenarios:
+1. Compare two numeric types
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        System.out.println( 5 == 5.00);
+    }
+}
+```
+
+2. Comparing two boolean values
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        boolean y = false;
+        boolean x = (y = true);
+        if (y == x) System.out.println( true);
+        System.out.println(x);
+    }
+}
+```
+
+3. Comparing two objects
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        File x = new File("myFile.txt");
+        File y = new File("myFile.txt");
+        File z = x;
+        System.out.println(x == y); // Outputs false
+        System.out.println(x == z); // Outputs true
+    }
+}
+```
+
+## Hands - On
+
+### Build a class with all examples and test
