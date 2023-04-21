@@ -380,6 +380,178 @@ public class FIS {
 }
 ```
 
+### Control flow Statements
+
+Its used to break flow of execution by using
+
+* decision making
+* Looping
+* Branching
+
+
+#### if-then Statement
+
+Execute particular block of code if and only if a boolean expression evaluates to true at runtime
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+            if (booleanExpression) {
+                // Execute if boolean is true
+            }
+        }
+    }
+}
+```
+
+Can you answer this question?
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int numberOfEmployees = 10;    
+        if (numberOfEmployees < 11)
+                System.out.println("Good Morning");
+            morningGreetingCount++;
+        }
+}
+```
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+            if (booleanExpression) {
+                // Execute if boolean is true
+            } else {
+            }
+        }
+}
+```
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int numberOfEmployees = 10;
+        if (numberOfEmployees < 11) {
+            System.out.println("Good Morning");
+        } else if (numberOfEmployees < 15) {
+            System.out.println("Good Afternoon");
+        } else {
+            System.out.println("Good Evening");
+        }
+    }
+}
+```
+
+Always watch indentation and Braces For example you can see below code
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int numberOfEmployees = 10;
+    if(numberOfEmployees < 11) {System.out.println("Good Morning");} else if (numberOfEmployees < 15) {System.out.println("Good Afternoon");} else { System.out.println("Good Evening");}
+    }
+}
+```
+
+Can you find what is wrong in below code?
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int numberOfEmployees = 10;
+        if (numberOfEmployees = 10) {
+            System.out.println("Good Morning");
+        }
+    }
+}
+```
+
+## Ternary Operator
+
+`booleanExpression ? expression1 : expression2`
+
+Ternary operator can be compressed for an if-then-else statement
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int y = 10;
+        final int x;
+        if(y > 5) {
+            x = 2 * y;
+        } else {
+            x = 3 * y;
+        }
+    }
+}
+```
+
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int y = 10;
+        int x = (y > 5) ? (2 * y) : (3 * y);
+        }
+}
+```
+
+Ternary operator use only one expression
+
+[Ternary operator](/Users/$refrence/Developer/javaExercise/src/main/java/TernaryOperator.java)
+
+## Switch Statement
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        switch (variableToTest) {
+            case constantExpression1: // Branch for case1;
+            case constantExpression2: // Branch for case2;
+            default:                  // Branch for default
+        }
+    }
+}
+```
+
+Data types supported by switch statements include the following:
+* Integer
+* Byte
+* Short
+* Character
+* Integer
+* String
+* enum values
+
+`Note` Boolean and Long is not supported 
+
+[Switch](/Users/$refrence/Developer/javaExercise/src/main/java/Switch.java)
+
+## While Statement
+
+[While](/Users/$refrence/Developer/javaExercise/src/main/java/While.java)
+
+## Do-While Statement
+
+[DoWhile](/Users/$refrence/Developer/javaExercise/src/main/java/DoWhile.java)
+
+## for Statement
+
+[ForStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ForStatement.java)
+
+## for-each statement
+
+[ForEachStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ForEachStatement.java)
+
+## break Statement
+
+[BreakStatement](/Users/$refrence/Developer/javaExercise/src/main/java/BreakStatement.java)
+
+## Continue Statement
+
+[ContinueStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ContinueStatement.java)
+
 ## Hands - On
 
 ### Build a class with all examples and test
