@@ -1,33 +1,33 @@
-import java.util.Date;
 
 public class StringBuilderTest {
-
     public static void main(String args[]) {
 
-        // Case - 1
-        /* Its Mutable it means if set the object to another variable,
-        it will use same value i.e only line reference will be moved anotherLine
-        as showed below*/
-        StringBuilder line = new StringBuilder("-");
-        StringBuilder anotherLine = line.append("-");
+        // Test case 1
+        StringBuilder sb = new StringBuilder("thiru");
+        sb.append("+from"); // sb = "thiru+from"
+        StringBuilder same = sb.append("+fis"); // "thirufromfis"
 
-        System.out.println("line1" + line.append("-"));
-        System.out.println("line2" + line);
-        System.out.println("anotherLine" + anotherLine);
+        System.out.println(same);
 
-        Date d2 = new Date();
+        // Test Case 2
+        StringBuilder a = new StringBuilder("abc");
+        StringBuilder b = a.append("de");
+        b = b.append("f").append("g");
+        System.out.println("a=" + a);
+        System.out.println("b=" + b);
 
-        System.out.print(line == anotherLine);
-
-        // Case - 2
-        StringBuilder sb = new StringBuilder();
-        sb.append("red");
-        sb.deleteCharAt(0);
-        sb.delete(1, 2);
-        System.out.println("case2: " + sb);
-
-        // String[] stringArray = new String[] { "A", "B", "C", "D" };
-        // List<String> stringList = Arrays.asList(stringArray);
-
+        // Test Case 3
+        StringBuilder name = new StringBuilder(2);
+        System.out.println("nameCapacity=" + name.capacity());
+        name.append("th");
+        System.out.println("name=" + name);
+        System.out.println("nameCapacity=" + name.capacity());
+        name.append("iru");
+        System.out.println("name=" + name);
+        System.out.println("nameCapacity=" + name.capacity());
+        System.out.println("------------------");
+        StringBuilder name1 = new StringBuilder("thiru");
+        System.out.println("name=" + name1);
+        System.out.println("nameCapacity=" + name1.capacity());
     }
 }
