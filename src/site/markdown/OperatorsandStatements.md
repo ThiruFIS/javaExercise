@@ -526,31 +526,107 @@ Data types supported by switch statements include the following:
 
 `Note` Boolean and Long is not supported 
 
+* Case statement value must also be a literal, enum constant, or final constant variable
+* Data type for case statements must all match the data type of the switch variable
+
 [Switch](/Users/$refrence/Developer/javaExercise/src/main/java/Switch.java)
+
+After checking above example, Can we identify which will not compile and why?
+
+```java
+public class FIS {
+    private int getSortOrder(String firstName, final String lastName) {
+        String middleName = "Patricia";
+        final String suffix = "JR";
+        int id = 0;
+        switch (firstName) {
+            case "Test":
+                return 52;
+            case middleName:
+                id = 5;
+                break;
+            case suffix:
+                id = 0;
+                break;
+            case lastName:
+                id = 8;
+                break;
+            case 5:
+                id = 7;
+                break;
+            case 'J':
+                id = 10;
+                break;
+            case java.time.DayOfWeek.SUNDAY:
+                id = 15;
+                break;
+        }
+        return id;
+    }
+}
+```
 
 ## While Statement
 
 [While](/Users/$refrence/Developer/javaExercise/src/main/java/While.java)
 
+Can you identify output of below code?
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int x = 2;
+        int y = 5;
+        while (x < 10)
+            y++;
+    }
+}
+```
+
 ## Do-While Statement
+
+```java
+public class FIS {
+    public static void main(String args[]) {
+        int x = 0;
+        do {
+        x++;
+        } while(false);
+        System.out.println(x);
+    }
+}
+```
 
 [DoWhile](/Users/$refrence/Developer/javaExercise/src/main/java/DoWhile.java)
 
 ## for Statement
 
+```java
+public class FIS {
+    public static void main(String args[]) {
+        for(initialization; booleanExpression; updateStatement) {
+        /*
+                Step 1 - Intialization Statement Executes
+                Step 2 - Boolean Expression is true continue else exit
+                Step 3 - Execute body
+                Step 4 - Execute update Statement
+                Step 5 - Go to Step 2
+         */
+            
+        }
+    }
+}
+```
+
+`Note` - Initialization statement should have same data type
+
 [ForStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ForStatement.java)
 
 ## for-each statement
 
+Iterating over arrays and Collection objects
+
 [ForEachStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ForEachStatement.java)
-
-## break Statement
-
-[BreakStatement](/Users/$refrence/Developer/javaExercise/src/main/java/BreakStatement.java)
-
-## Continue Statement
-
-[ContinueStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ContinueStatement.java)
 
 ## Hands - On
 
