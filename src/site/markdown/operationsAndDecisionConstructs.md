@@ -115,11 +115,11 @@ public class FIS {
 }
 ```
 
-[ImmutableString](/Users/$refrence/Developer/javaExercise/src/main/java/ImmutableString.java)
+[ImmutableString](/Users/QQ18PR/Developer/javaExercise/src/main/java/ImmutableString.java)
 
 ### How to create mutable class for string
 
-[MutableString](/Users/$refrence/Developer/javaExercise/src/main/java/MutableString.java)
+[MutableString](/Users/QQ18PR/Developer/javaExercise/src/main/java/MutableString.java)
 
 ## The String Pool
 
@@ -184,7 +184,7 @@ public class FIS {
 
 Can you guess what is the output ?
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### indexOf()
 
@@ -199,7 +199,7 @@ public class FIS {
 }
 ```
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### subString()
 
@@ -216,13 +216,13 @@ public class FIS {
 beginIndex --> Starting position
 endIndex --> StopAt Index `Note` its not included
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### toLowerCase() and toUpperCase()
 
 You already understand what it does :)
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### equals() and equalsIgnoreCase()
 
@@ -241,7 +241,7 @@ public class FIS {
 }
 ```
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### startsWith() and endsWith()
 
@@ -260,7 +260,7 @@ public class FIS {
 }
 ```
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### contains()
 
@@ -274,7 +274,7 @@ public class FIS {
 }
 ```
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### replace()
 
@@ -289,7 +289,7 @@ public class FIS {
 }
 ```
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### trim()
 
@@ -303,7 +303,7 @@ public class FIS {
 }
 ```
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ### Method Chaining
 
@@ -321,7 +321,7 @@ Each time one is called returned value is added a new variable and used for next
 
 Start at Left and evaluate first method and then call next method and keep continue till get semicolon
 
-[StringMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringMethods.java)
+[StringMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringMethods.java)
 
 ## StringBuilder
 
@@ -359,7 +359,7 @@ public class FIS {
 
 This code will stop creating interim String Values.
 
-[StringBuilderTest](/Users/$refrence/Developer/javaExercise/src/main/java/StringBuilderTest.java)
+[StringBuilderTest](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringBuilderTest.java)
 
 ### How to Create StringBuilder
 
@@ -377,7 +377,7 @@ public class FIS {
 
 Statement 3 - Tell StringBuilder how big value will be to reserve
 
-[StringBuilderTest](/Users/$refrence/Developer/javaExercise/src/main/java/StringBuilderTest.java)
+[StringBuilderTest](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringBuilderTest.java)
 
 ### StringBuildMethods
 
@@ -397,7 +397,7 @@ Similar to same as String Class
 
 Similar to same as String Class
 
-[StringBuilderMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringBuilderMethods.java)
+[StringBuilderMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringBuilderMethods.java)
 
 #### append()
 
@@ -411,4 +411,8 @@ public class FIS {
 }
 ```
 
-[StringBuilderMethods](/Users/$refrence/Developer/javaExercise/src/main/java/StringBuilderMethods.java)
+[StringBuilderMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringBuilderMethods.java)
+
+## Hands - On
+
+### Build a class with all examples and test

@@ -412,7 +412,7 @@ public class FIS {
         int numberOfEmployees = 10;    
         if (numberOfEmployees < 11)
                 System.out.println("Good Morning");
-            morningGreetingCount++;
+                System.out.println("Good Afternoon");
         }
 }
 ```
@@ -499,7 +499,7 @@ public class FIS {
 
 Ternary operator use only one expression
 
-[Ternary operator](/Users/$refrence/Developer/javaExercise/src/main/java/TernaryOperator.java)
+[Ternary operator](/Users/QQ18PR/Developer/javaExercise/src/main/java/TernaryOperator.java)
 
 ## Switch Statement
 
@@ -529,15 +529,15 @@ Data types supported by switch statements include the following:
 * Case statement value must also be a literal, enum constant, or final constant variable
 * Data type for case statements must all match the data type of the switch variable
 
-[Switch](/Users/$refrence/Developer/javaExercise/src/main/java/Switch.java)
+[Switch](/Users/QQ18PR/Developer/javaExercise/src/main/java/Switch.java)
 
 After checking above example, Can we identify which will not compile and why?
 
 ```java
 public class FIS {
     private int getSortOrder(String firstName, final String lastName) {
-        String middleName = "Patricia";
-        final String suffix = "JR";
+        String middleName = "THIRU";
+        final String suffix = "FIS";
         int id = 0;
         switch (firstName) {
             case "Test":
@@ -568,7 +568,7 @@ public class FIS {
 
 ## While Statement
 
-[While](/Users/$refrence/Developer/javaExercise/src/main/java/While.java)
+[While](/Users/QQ18PR/Developer/javaExercise/src/main/java/While.java)
 
 Can you identify output of below code?
 
@@ -597,7 +597,7 @@ public class FIS {
 }
 ```
 
-[DoWhile](/Users/$refrence/Developer/javaExercise/src/main/java/DoWhile.java)
+[DoWhile](/Users/QQ18PR/Developer/javaExercise/src/main/java/DoWhile.java)
 
 ## for Statement
 
@@ -620,13 +620,13 @@ public class FIS {
 
 `Note` - Initialization statement should have same data type
 
-[ForStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ForStatement.java)
+[ForStatement](/Users/QQ18PR/Developer/javaExercise/src/main/java/ForStatement.java)
 
 ## for-each statement
 
 Iterating over arrays and Collection objects
 
-[ForEachStatement](/Users/$refrence/Developer/javaExercise/src/main/java/ForEachStatement.java)
+[ForEachStatement](/Users/QQ18PR/Developer/javaExercise/src/main/java/ForEachStatement.java)
 
 ## Hands - On
 
