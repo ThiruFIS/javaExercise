@@ -58,7 +58,7 @@ Can you calculate the result of variable x?
 
 ```java
 public class FIS {
-    int x = 2 * ((5 + 3) * 4 – 8);
+    int x = 2 * ((5 + 3) * 4–8);
 }
 ```
 
@@ -627,7 +627,3 @@ public class FIS {
 Iterating over arrays and Collection objects
 
 [ForEachStatement](/Users/QQ18PR/Developer/javaExercise/src/main/java/ForEachStatement.java)
-
-## Hands - On
-
-### Build a class with all examples and test

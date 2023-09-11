@@ -412,7 +412,3 @@ public class FIS {
 ```
 
 [StringBuilderMethods](/Users/QQ18PR/Developer/javaExercise/src/main/java/StringBuilderMethods.java)
-
-## Hands - On
-
-### Build a class with all examples and test

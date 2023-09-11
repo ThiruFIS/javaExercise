@@ -22,10 +22,9 @@ public class TernaryOperator {
         int t3y = 1;
         int t3z = 1;
         final int t3x = t3y<10 ? t3y++ : t3z++;
-        System.out.println(y+","+t3z);
+        System.out.println(t3y+","+t3z);
 
         final int t3x1 = t3y>10 ? t3y++ : t3z++;
-        System.out.println(y+","+t3z);
-
+        System.out.println(t3y+","+t3z);
     }
 }

@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556b4875-09df-4546-bf84-505eddf9e9f3" name="Changes" comment="Updated Documentation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExerciseSEP1A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExerciseSEP2A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TernaryOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/OperatorsandStatements.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/site/markdown/operationsAndDecisionConstructs.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/markdown/operationsAndDecisionConstructs.md" afterDir="false" />
     </list>
@@ -48,13 +52,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
     <option name="showPreview" value="true" />
@@ -62,6 +59,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2G7FIxT9r0sfjpYeq4xzcHBamkq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -80,7 +80,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -106,23 +106,16 @@
       <recent name="NumericPromotionRule1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MutableString1">
-    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoWhile" />
+  <component name="RunManager" selected="Application.ExerciseSEP2A">
+    <configuration name="ExerciseSEP1A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseSEP1A" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForEachStatement" />
-      <module name="javaExercise" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ForStatement" />
+    <configuration name="ExerciseSEP2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciseSEP2A" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,31 +128,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MutableString1" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringBuilderTest" />
       <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="StringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringMethods" />
+      <module name="javaExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MutableString1" />
+        <item itemvalue="Application.ExerciseSEP2A" />
+        <item itemvalue="Application.ExerciseSEP1A" />
+        <item itemvalue="Application.StringBuilderTest" />
+        <item itemvalue="Application.StringMethods" />
         <item itemvalue="Application.ImmutableString" />
-        <item itemvalue="Application.ForStatement" />
-        <item itemvalue="Application.ForEachStatement" />
-        <item itemvalue="Application.DoWhile" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +175,40 @@
       <workItem from="1681715269032" duration="1532000" />
       <workItem from="1681969633479" duration="38959000" />
       <workItem from="1682318407641" duration="9490000" />
+      <workItem from="1682836696568" duration="2216000" />
+      <workItem from="1682925222723" duration="28337000" />
+      <workItem from="1683185271396" duration="15305000" />
+      <workItem from="1683218169078" duration="19192000" />
+      <workItem from="1683313691055" duration="556000" />
+      <workItem from="1683557207053" duration="543000" />
+      <workItem from="1683564387077" duration="119313000" />
+      <workItem from="1683823022949" duration="24000" />
+      <workItem from="1684157498629" duration="598000" />
+      <workItem from="1684307821380" duration="412000" />
+      <workItem from="1684738966548" duration="1317000" />
+      <workItem from="1684750280664" duration="8488000" />
+      <workItem from="1684921220420" duration="599000" />
+      <workItem from="1689234968491" duration="1411000" />
+      <workItem from="1689317600368" duration="26782000" />
+      <workItem from="1690094454040" duration="63000" />
+      <workItem from="1690272804918" duration="55000" />
+      <workItem from="1690784287356" duration="61000" />
+      <workItem from="1691132026783" duration="30980000" />
+      <workItem from="1691562519370" duration="42204000" />
+      <workItem from="1691612427808" duration="15194000" />
+      <workItem from="1691653275870" duration="38000" />
+      <workItem from="1691734184936" duration="986000" />
+      <workItem from="1691738338554" duration="185919000" />
+      <workItem from="1692255267892" duration="125000" />
+      <workItem from="1692340909971" duration="23000" />
+      <workItem from="1692943854669" duration="3411000" />
+      <workItem from="1693459873178" duration="654000" />
+      <workItem from="1693466786864" duration="17267000" />
+      <workItem from="1693990415561" duration="1796000" />
+      <workItem from="1694066004806" duration="498000" />
+      <workItem from="1694071382249" duration="507000" />
+      <workItem from="1694105893779" duration="1698000" />
+      <workItem from="1694279899619" duration="10762000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Documentation">
       <created>1667556970283</created>
